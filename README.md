@@ -3,6 +3,11 @@
 # RRAP-IS Data Registry prototype 
 The purpose of this experiment is to try reusing the software stack that AWS Open Data Registry has created to host a repository of S3 storage based datasets where the descriptive metadata files are stored on a github repository. 
 
+To build the site including the dataset listing, run `./_scripts/rrap-copy-data.sh`. There is currently some template sample datasets in the rrap version of the repo so you can see how we might be able to use this service. The S3 links are valid but you will need authentication to access them.
+
+To serve the site locally, use `npm install` and then `npm run serve`.
+
+
 The below README is provided by AWS. 
 
 ## AWS ODR description
