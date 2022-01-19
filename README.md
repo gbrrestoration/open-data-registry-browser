@@ -1,3 +1,11 @@
+
+
+# RRAP-IS Data Registry prototype 
+The purpose of this experiment is to try reusing the software stack that AWS Open Data Registry has created to host a repository of S3 storage based datasets where the descriptive metadata files are stored on a github repository. 
+
+The below README is provided by AWS. 
+
+## AWS ODR description
 The Registry of Open Data (RODA) Browser acts as a simple, web-based visualization of the data in https://github.com/awslabs/open-data-registry. 
 
 This browser can be used to view a single data repository or multiple data repositories, depending on build-time settings. The project builds static HTML files that can be deployed on any compatible web server.
